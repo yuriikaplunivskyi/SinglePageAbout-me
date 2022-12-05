@@ -1,0 +1,37 @@
+.get__acquainted {
+    height: 100vh;
+    width: 100vw;
+    background: url('../img/background/firstBlock.jpg') center center/cover no-repeat;
+    /* backdrop-filter:opacity(25%); */
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* background-blend-mode: saturation; */
+    /*Я НАМАГАВСЯ ЗРОБИТИ БІЛИЙ ПРОЗОРИЙ БЄКГРАУНД АЛЕ ЦЕ ДЦЖЕ СКЛАДНО ЗРОБИТИ З УВАГИ НА ПЕВНІ ПРИЧИНИ, ТОМУ Я ЦЕ ОМИНАЮ І БУДУ ДУМАТИ ЩО ДИЗАЙНЕР МАВ ВИРІЗАТИ БГ ВЖЕ З НАКЛАДЕНИМ БІЛИМ НАПІВПРОЗОРИМ*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get__acquainted_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    color: var(--color-text-subtitle);
+    border: 5px solid var(--color-text-subtitle);
+    margin: 60px 40px; 
+    padding: 0 auto;
+    min-height: 40vh;
+}
+
+.get__acquainted_text > button {
+    font-size: 32px;
+    font-weight: bold;
+    background-color:rgb(9, 112, 214);
+    border:1px solid black;
+    color: #ffffff;
+    text-decoration: underline;
+    border-radius: 1vh;
+    width: 200px;
+    height: 70px;
+
+}

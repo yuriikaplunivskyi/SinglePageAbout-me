@@ -1,0 +1,33 @@
+@import '/css/libs/bootstrap-reboot.min.css';
+@import 'variables.css';
+@import 'header.css';
+@import 'about__introduce.css';
+
+@font-face {
+    font-family: "Helvetica", bold;
+    src: url('/fonts/Helvetica-Bold.ttf') format('truetype');
+  }
+
+* {
+    font-family: "Helvetica", bold;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 95vw;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 72px;
+    margin: 20px 25px ;
+    line-height: 70px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+h2 {
+    font-size: 42px;
+    color: var(--color-text-subtitle);
+}
+

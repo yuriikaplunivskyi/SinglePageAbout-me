@@ -1,0 +1,27 @@
+nav {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+nav > a {
+    font-size: 25px;
+    filter:opacity(85%);
+    font-weight: bold;
+    padding: 0 20px;
+    color: var(--color-text-subtitle);
+    /* border-right: 5px solid var(--color-text-header); */
+
+}
+.about__nav_grey-line {
+    margin-top: 10px;
+    filter:opacity(25%);
+    border-right: 3px solid grey;
+    height: calc(2em - 15px);
+}
+nav a:hover{
+    text-decoration: none;
+    color:rgb(68, 77, 255);
+}
+
