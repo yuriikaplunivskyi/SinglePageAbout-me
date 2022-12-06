@@ -28,6 +28,33 @@ h1 {
 }
 h2 {
     font-size: 42px;
+    font-weight: bold;
     color: var(--color-text-subtitle);
+    text-align: center;
 }
 
+h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--color-text-subtitle);
+    text-align: center;
+    margin: 0 auto;
+}
+p {
+    color:rgb(88, 84, 84);
+    font-size: 20px;
+}
+.to_top{
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-end;
+    margin: 0 5vw;
+}
+
+.to_top a{
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--color-text-subtitle);
+    text-align: center;
+    
+}

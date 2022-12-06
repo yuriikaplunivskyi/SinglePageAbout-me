@@ -1,3 +1,8 @@
+.about {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+}
 nav {
     margin-top: 20px;
     display: flex;
@@ -11,9 +16,8 @@ nav > a {
     font-weight: bold;
     padding: 0 20px;
     color: var(--color-text-subtitle);
-    /* border-right: 5px solid var(--color-text-header); */
-
 }
+
 .divider {
     margin-top: 10px;
     filter:opacity(25%);
@@ -24,4 +28,60 @@ nav a:hover{
     text-decoration: none;
     color:rgb(68, 77, 255);
 }
+.about__wrapper {
+    display: grid;
+    grid-auto-flow:column;
+    grid-template-columns: 1fr 4fr;
+
+    grid-gap: 80px;
+    margin: 30px 30px;
+}
+
+.about__wrapper_item{
+    display: grid;
+    grid-gap: 40px;
+}
+
+.about__wrapper_item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about__wrapper_item-text {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items:center;
+    padding: 0 100px;
+}
+
+.about__wrapper_item-text_point {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 2fr 1fr;
+    align-items: center;
+    align-self: center;
+    grid-template-areas: "a b b b"
+                         ". c c ."   ;
+}
+
+.about__wrapper_item-text_point .about__check {
+    grid-area: a;
+}
+
+.about__wrapper_item-text_point h3 {
+    grid-area: b;
+}
+
+.about__wrapper_item-text_point p {
+    grid-area: c;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+    /* margin:  20px ; */
+}
+
+
 
