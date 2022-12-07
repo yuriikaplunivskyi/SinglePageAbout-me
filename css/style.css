@@ -1,7 +1,8 @@
 @import '/css/libs/bootstrap-reboot.min.css';
 @import 'variables.css';
 @import 'header.css';
-@import 'about__introduce.css';
+@import 'about.css';
+@import 'experience.css';
 
 @font-face {
     font-family: "Helvetica", bold;
@@ -44,9 +45,15 @@ p {
     color:rgb(88, 84, 84);
     font-size: 20px;
 }
+
+span {
+    font-size: 1em ;
+    font-weight: bold;
+}
+
 .to_top{
     display: flex;
-    align-items:flex-start;
+    align-items:flex-end;
     justify-content: flex-end;
     margin: 0 5vw;
 }
