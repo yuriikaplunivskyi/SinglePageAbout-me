@@ -17,6 +17,7 @@ nav > a {
     font-weight: bold;
     padding: 0 20px;
     color: var(--color-text-subtitle);
+    transition: .3s;
 }
 
 .divider {
@@ -34,6 +35,11 @@ nav a:hover{
     transform: 2s;
     text-shadow: hoff voff blur #000;
 }
+nav:hover > :not(:hover) {
+    opacity: .4;
+}
+
+
 .about__wrapper {
     display: grid;
     grid-auto-flow:column;
