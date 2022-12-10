@@ -67,6 +67,28 @@ nav:hover > :not(:hover) {
     padding: 0 100px;
 }
 
+
+.about__wrapper_item-text:first-child{
+    overflow: hidden;
+    border-right: .15em solid var(--color-text-subtitle);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: var(--color-text-subtitle)}
+  }
+
 .about__wrapper_item-text_point {
     display: grid;
     grid-template-columns: 1fr 3fr;
