@@ -3,6 +3,8 @@
 @import 'header.css';
 @import 'about.css';
 @import 'experience.css';
+@import 'interests.css';
+@import 'footer.css';
 
 @font-face {
     font-family: "Helvetica", bold;
@@ -16,19 +18,20 @@
 }
 
 .container {
-    width: 95vw;
+    width: 90vw;
     margin: 0 auto;
 }
 
 h1 {
-    font-size: 72px;
+    font-size: 58px;
     margin: 20px 25px ;
     line-height: 70px;
     font-weight: bold;
     letter-spacing: 3px;
 }
 h2 {
-    font-size: 42px;
+    margin-top: 2vh;
+    font-size: 38px;
     font-weight: bold;
     color: var(--color-text-subtitle);
     text-align: center;
@@ -38,12 +41,17 @@ h3 {
     font-size: 25px;
     font-weight: bold;
     color: var(--color-text-subtitle);
-    text-align: center;
+    /* text-align: center; */
+    place-items: center;
     margin: 0 auto;
 }
 p {
     color:rgb(88, 84, 84);
-    font-size: 20px;
+    font-size: 16px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:pre-line;
 }
 
 span {
@@ -55,7 +63,8 @@ span {
     display: flex;
     align-items:flex-end;
     justify-content: flex-end;
-    margin: 0 5vw;
+    margin-right: 5vw ;
+    margin-bottom: 3vh;
 }
 
 .to_top a{
@@ -65,3 +74,5 @@ span {
     text-align: center;
     
 }
+
+

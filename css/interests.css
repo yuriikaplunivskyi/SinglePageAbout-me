@@ -1,0 +1,20 @@
+.interests {
+    display: grid;
+    min-height: 100vh;
+/*     width: 100vw; */
+    border-top: 1px solid grey;
+}
+.interests__wrapper{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    place-items:center;
+    grid-gap: 5vh 10vw;
+    margin: 5vh 5vw;
+}
+.interests_item img {
+    width: 75%;
+    height: 75%;
+    object-fit: cover;
+    align-items: center;
+}

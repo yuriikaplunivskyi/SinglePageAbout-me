@@ -1,6 +1,8 @@
 .experience{
     display: grid;
-    
+    min-height: 100vh;
+/*     width: 100vw;  */
+  border-top: 1px solid grey;
 }
 
 .experience h2 {
@@ -10,13 +12,21 @@
 .experience__wrraper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(1fr);
+    grid-template-rows: 1fr;
     grid-gap: 5%;
     margin: 4vh 4vw;
 }
 .experience__item_text {
     border: 1px solid grey;
 }
+
+/* ще варіант  .donut {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(white 40%, transparent 41%), conic-gradient(#FF5722 0% 35%, #FFEB3B 35% 60%, #2196F3 60% 100%);
+  margin: 10px;
+  border-radius: 50%;
+} */
 
 .unit {
     fill: none;
@@ -71,3 +81,4 @@
     padding: 2vh 2vw;
     text-indent: 1em;
 }
+
