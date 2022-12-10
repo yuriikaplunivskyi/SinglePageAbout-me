@@ -33,7 +33,8 @@ nav a:hover{
     transition: all 0.5s ease-in ; */
     transform: scale(120%);
     transform: 2s;
-    text-shadow: /* hoff voff blur #000; */1px 1px 2px black, 0 0 1em rgb(29, 29, 177), 0 0 0.2em rgb(7, 7, 126);
+    text-shadow:1px 1px 2px black, 0 0 1em rgb(29, 29, 177), 0 0 0.2em rgb(7, 7, 126);
+    /*колхоз але щось в цьому є*/
 }
 nav:hover > :not(:hover) {
     opacity: .4;
