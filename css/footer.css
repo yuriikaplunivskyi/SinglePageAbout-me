@@ -85,6 +85,13 @@ footer {
     max-width: 3%;
     min-height: 3%;
 }
+
+.social__networ_iconlink:hover{
+    transform: scale(120%);
+    transform: 2s;
+}
+
+
 .subtitle__company {
     display: flex;
     align-items:flex-end;
