@@ -62,8 +62,11 @@ span {
     display: flex;
     align-items:flex-end;
     justify-content: flex-end;
-    margin-right: 5vw ;
-    margin-bottom: 3vh;
+/*     margin-right: 5vw ;
+    margin-bottom: 3vh; */
+    position: fixed;
+    bottom: 3vh;
+    right: 5vw;
 }
 
 .to_top a{
