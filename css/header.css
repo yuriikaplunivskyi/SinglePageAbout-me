@@ -51,7 +51,7 @@
     width: 14vw;
     height: 9vh;
 }
-.button__header > a {
+.button__header > span {
     color: #ffffff;
     text-decoration: underline;
     font-size: 32px;

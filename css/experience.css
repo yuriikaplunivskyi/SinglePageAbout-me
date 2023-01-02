@@ -11,7 +11,7 @@
 
 .experience__wrraper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: 1fr;
     grid-gap: 5%;
     margin: 4vh 4vw;
@@ -55,13 +55,14 @@
     align-items:center;
     justify-content: center;
     gap: 3vw;
+    margin-bottom:0 auto;
   }
 .steck__tech{
     display: grid;
     border: 1px solid black;
     border-radius: 5em;
-    width: 5vw;
-    height: 4vh;
+    min-width: 5vw;
+    min-height: 4vh;
     place-items: center;
 }
 
@@ -80,5 +81,9 @@
 .experience__item_text p {
     padding: 2vh 2vw;
     text-indent: 1em;
+    margin-bottom: 2vh;
 }
 
+.steck__tech span {
+  margin:0.2em;
+}
