@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AboutMe</title>
+<<<<<<< HEAD
     <link rel="stylesheet" href="/css/libs/bootstrap-reboot.min.css">
+=======
+    <link rel="stylesheet" href="css/libs/bootstrap-reboot.min.css">
+>>>>>>> adcbc3b3d152a2a8624be237cff99957715ccb26
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -13,7 +17,7 @@
         <div class="container">        
             <div class="get__acquainted_text">
             <h1>Let's get acquainted</h1>
-            <button class="button__header"><a href="#about">About me</a></button>
+            <button class="button__header" onclick="location.href='#about';"><span>About me</span></button>
        </div>
     </div>
     </header>
@@ -21,17 +25,24 @@
         <div class="container">
             <nav>
                 <a href="#about">About</a>
+                               
                 <span class="divider"></span>
+
                 <a href="#experience">Experience</a>
+                
                 <span class="divider"></span>
+
                 <a href="#interests">Interest's</a>
+                
                 <span class="divider"></span>
+
                 <a href="#Get-in-touch">Get in touch</a>
+                
             </nav>
             <h2>About</h2>
             <div class="about__wrapper">
                  <div class="about__wrapper_item">
-                    <img src="/img/photo_about.jpg" alt="I'm">
+                    <img src="img/photo_about.jpg" alt="I'm">
                  </div>
                  <div class="about__wrapper_item">
                     <div class="about__wrapper_item-text">
@@ -40,7 +51,7 @@
                     <div class="about__wrapper_item-text">
                         <div class="about__wrapper_item-text_point">
                                 <div class="about__check">
-                                    <svg version="1.1" id="check" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	                                        width="363.025px" height="363.024px" viewBox="0 0 363.025 363.024" style="enable-background:new 0 0 363.025 363.024;"
 	                                        xml:space="preserve">
 			                        <path style="fill:#7d7a7a;" d="M181.512,363.024C81.43,363.024,0,281.601,0,181.513C0,81.424,81.43,0,181.512,0
@@ -57,7 +68,7 @@
 
                         <div class="about__wrapper_item-text_point">
                             <div class="about__check">
-                                <svg version="1.1" id="check" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                         width="363.025px" height="363.024px" viewBox="0 0 363.025 363.024" style="enable-background:new 0 0 363.025 363.024;"
                                         xml:space="preserve">
                                 <path style="fill:#7d7a7a;" d="M181.512,363.024C81.43,363.024,0,281.601,0,181.513C0,81.424,81.43,0,181.512,0
@@ -73,7 +84,7 @@
                         </div>
                         <div class="about__wrapper_item-text_point">
                             <div class="about__check">
-                                <svg version="1.1" id="check" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                         width="363.025px" height="363.024px" viewBox="0 0 363.025 363.024" style="enable-background:new 0 0 363.025 363.024;"
                                         xml:space="preserve">
                                 <path style="fill:#7d7a7a;" d="M181.512,363.024C81.43,363.024,0,281.601,0,181.513C0,81.424,81.43,0,181.512,0
@@ -121,30 +132,29 @@
                     </p>
                 </div>
             </div>
-
         </div>
-        <div class="to_top">
+<!--         <div class="to_top">
             <a href="#">To top</a>
-        </div>
+        </div> -->
     </section>
     <section id="interests" class="interests">
         <div class="container">
             <h2>Interest&apos;s</h2>
             <div class="interests__wrapper">
-                <div class="interests_item"><img src="/img/historical.jpg" alt="history"></div>
+                <div class="interests_item"><img src="img/historical.jpg" alt="history"></div>
                 <div class="interests_item">
                     <p>I am interested in history, I believe that it is the basis of our present. In my opinion, to understand "why today is like this" we must know what happened "yesterday".</p>
                 </div>
                 <div class="interests_item">
                     <p>One of my areas of interest is computer science. I do not presume to say that I am well versed in this field, but every day I make the "blind spots" narrower.</p> 
                 </div>
-                <div class="interests_item"><img src="/img/compsc.jpg" alt="cs"></div>
+                <div class="interests_item"><img src="img/compsc.jpg" alt="cs"></div>
             </div>
 
         </div>
-        <div class="to_top">
+<!--         <div class="to_top">
             <a href="#">To top</a>
-        </div>
+        </div -->>
     </section>
     <section id="Get-in-touch" class="Get-in-touch">
        <div class="container">
@@ -154,7 +164,7 @@
                 <form class="get-in-touch__form" action="#">
                     <input type="text" name="message" id="message" required placeholder="Message">
                     <input type="email" name="email" id="email" required placeholder="E-mail">
-                    <input type="text" name="name" id="name" required placeholder="Full Name"></input>
+                    <input type="text" name="name" id="name" required placeholder="Full Name">
                     <button id="button__form">Send</button>
                 </form>
             </div>
@@ -162,24 +172,24 @@
                 <span class="divider__footer"></span>
                 <div class="social_network">
                     <a href="https://github.com/yuriikaplunivskyi"  class="social__networ_iconlink">
-                        <img src="/icons/github.svg" alt="github">
+                        <img src="icons/github.svg" alt="github">
                     </a>
                     <a href="https://t.me/chudrayk" class="social__networ_iconlink">
-                       <img src="/icons/telegram.svg" alt="telegram"> 
+                       <img src="icons/telegram.svg" alt="telegram"> 
                     </a>
                     <a href="/icons/instagram.svg" class="social__networ_iconlink">
-                        <img src="/icons/instagram.svg" alt="instagram">
+                        <img src="icons/instagram.svg" alt="instagram">
                     </a>
                 </div>
                 <div class="social__company">
-                    <p>&#169</p>
+                    <p>&#169;</p>
                     <h3 class="subtitle__company"> Name my company</h3>
                 </div>
             </footer>
         </div>
-        <div class="to_top">
+<!--         <div class="to_top">
             <a href="#">To top</a>
-        </div>
+        </div> -->
     </section>
 </body>
 </html>

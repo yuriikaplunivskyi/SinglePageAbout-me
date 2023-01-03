@@ -4,6 +4,7 @@
 @import 'experience.css';
 @import 'interests.css';
 @import 'footer.css';
+@import 'media.css';
 
 @font-face {
     font-family: "Helvetica", bold;
@@ -18,18 +19,17 @@
 
 .container {
     width: 90vw;
-    margin: 0 auto;
+    margin: 5vh auto;
 }
 
 h1 {
-    font-size: 58px;
+    font-size: 3.625em;
     margin: 20px 25px ;
     line-height: 70px;
     font-weight: bold;
     letter-spacing: 3px;
 }
 h2 {
-    margin-top: 2vh;
     font-size: 38px;
     font-weight: bold;
     color: var(--color-text-subtitle);
@@ -62,8 +62,11 @@ span {
     display: flex;
     align-items:flex-end;
     justify-content: flex-end;
-    margin-right: 5vw ;
-    margin-bottom: 3vh;
+/*     margin-right: 5vw ;
+    margin-bottom: 3vh; */
+    position: fixed;
+    bottom: 3vh;
+    right: 5vw;
 }
 
 .to_top a{

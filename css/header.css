@@ -51,11 +51,15 @@
     width: 14vw;
     height: 9vh;
 }
-.button__header > a {
+.button__header > span {
     color: #ffffff;
     text-decoration: underline;
     font-size: 32px;
     font-weight: bold;
+}
+
+.about__wrapper_item-text {
+    padding: 0 50px;
 }
 
 .get__acquainted_text > button:hover{
