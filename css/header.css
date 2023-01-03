@@ -58,6 +58,10 @@
     font-weight: bold;
 }
 
+.about__wrapper_item-text {
+    padding: 0 50px;
+}
+
 .get__acquainted_text > button:hover{
     background-color:rgb(0, 0, 0);
 }
